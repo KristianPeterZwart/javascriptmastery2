@@ -18,3 +18,13 @@ function Circle(radius) {
    }  
 }
 const another = new Circle(1); 
+
+// In JS functions are objects
+
+// VALUE TYPES                  REFERENCE TYPES
+// Number                       Object
+// String                       Function
+// Boolean                      Array
+// Symbol
+// Undefined
+// Null
