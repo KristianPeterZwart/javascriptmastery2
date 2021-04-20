@@ -14,3 +14,13 @@ x.value = 20;
 
 // PRIMITIVES are copied by their VALUE
 // OBJECTS are copied by their REFERENCE
+
+
+let number = 10;
+
+function increase(number) {
+    number++;
+}
+
+increase(number);
+console.log(number);
