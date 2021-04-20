@@ -22,5 +22,22 @@ function increase(number) {
     number++;
 }
 
+// Leaves the script here 
+
 increase(number);
 console.log(number);
+
+// Result = 10 no matter what
+
+let obj = { value: 10 };
+
+function increase(obj) {
+    obj.value++;
+}
+
+increase(obj);
+console.log(obj);
+
+// Result = 11 - When we call object - Increase is passed by reference
+
+// 2 variables pointing to same objects
