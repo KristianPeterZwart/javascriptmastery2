@@ -1,4 +1,5 @@
 
 let person = { name: 'Kris' };
-
-console.log(Object.keys(person));
+let objectBase = Object.getPrototypeOf(person); 
+let descriptor = Object.getOwnPropertyDescriptor(objectBase, 'toString');
+console.log(descriptor);
